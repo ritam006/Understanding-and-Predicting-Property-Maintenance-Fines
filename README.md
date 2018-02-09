@@ -5,4 +5,4 @@ The first step in answering this question is understanding when and why a reside
 The train.csv model contains data for training the model. 
 We use data from test.csv to predict the probablity that each corresponding ticket from test.csv will be paid.
 ### Approach 1
-We use sklearn.ensemble.RandomForestClassifier to predict the probablity
+We compare sklearn.ensemble.RandomForestClassifier and sklearn.ensemble.GradientBoostClasifier to predict the probablity
